@@ -1,0 +1,25 @@
+/* 1) Corrected body background declaration */
+body {
+    background: pink;
+}
+
+/* 2) Corrected h1 font-size declaration */
+h1 {
+    font-weight: 3em;
+}
+
+/* 3) Corrected h2 font-weight declaration */
+h2 {
+    font-weight: normal;
+    font-style: normal; /* Ensuring no unwanted styles affect it */
+}
+
+/* 4) Fixed typo: ".comleted" → ".completed" */
+.completed {
+    font-size: 12px;
+}
+
+/* 5) Corrected #tasks .completed background declaration */
+#tasks .completed {
+    background: #ccc;
+}
